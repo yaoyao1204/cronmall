@@ -108,6 +108,7 @@ class CronmallApplicationTests {
     public void testSelectById(){
         // 查询不到已经删除的数据，如果需求有查询删除的数据，需要自己写sql
         userMapper.selectById(1556252175632543746L);
+
     }
 
     /**
